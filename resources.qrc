@@ -1,6 +1,1 @@
-<RCC>
-    <qresource prefix="/new/prefix1">
-        <file>img.bmp</file>
-        <file>syst_conv_table.png</file>
-    </qresource>
-</RCC>
+<RCC/>
