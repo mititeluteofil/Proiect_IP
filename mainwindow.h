@@ -18,11 +18,13 @@ public:
 private slots:
     void on_MainWindow_iconSizeChanged(const QSize &iconSize);
 
-    void on_comboBox_activated(const QString &arg1);
-
     void on_pushButton_clicked();
 
     void on_comboBox_editTextChanged(const QString &arg1);
+    void on_comboBox_1_currentIndexChanged(int index);
+    void on_comboBox_1a_currentIndexChanged(int index);
+
+
 
 private:
     Ui::MainWindow *ui;

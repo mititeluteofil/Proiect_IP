@@ -112,7 +112,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>80</y>
       <width>51</width>
       <height>23</height>
@@ -125,7 +125,7 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>140</y>
       <width>51</width>
       <height>23</height>
@@ -138,7 +138,7 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>200</y>
       <width>51</width>
       <height>23</height>
@@ -151,7 +151,7 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>260</y>
       <width>51</width>
       <height>23</height>
@@ -164,7 +164,7 @@
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>330</y>
       <width>51</width>
       <height>23</height>
@@ -177,7 +177,7 @@
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>390</y>
       <width>51</width>
       <height>23</height>
@@ -190,7 +190,7 @@
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>450</y>
       <width>51</width>
       <height>23</height>
@@ -203,7 +203,7 @@
    <widget class="QPushButton" name="pushButton_10">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>510</y>
       <width>51</width>
       <height>23</height>
@@ -213,20 +213,7 @@
      <string>Convert</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>50</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_9">
+   <widget class="QComboBox" name="comboBox_1">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -294,7 +281,7 @@
      <string>to</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_11">
+   <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -303,6 +290,56 @@
       <height>41</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ac</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km²</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_14">
     <property name="geometry">
@@ -315,26 +352,6 @@
     </property>
     <property name="text">
      <string>to</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_12">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>130</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_13">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>190</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_15">
@@ -350,26 +367,6 @@
      <string>to</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_14">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>190</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_15">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>250</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
@@ -381,26 +378,6 @@
     </property>
     <property name="text">
      <string>to</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_16">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>250</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_17">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>320</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_17">
@@ -429,26 +406,6 @@
      <string>to</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_18">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>380</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_19">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>320</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
@@ -473,56 +430,6 @@
     </property>
     <property name="text">
      <string>to</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_20">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>500</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_21">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>440</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_22">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>440</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_23">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>500</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_24">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>380</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_6">
@@ -571,7 +478,7 @@
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>580</y>
       <width>51</width>
       <height>23</height>
@@ -594,40 +501,10 @@
      <string>to</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_25">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>570</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_26">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>570</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_27">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>630</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_11">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>640</y>
       <width>51</width>
       <height>23</height>
@@ -635,16 +512,6 @@
     </property>
     <property name="text">
      <string>Convert</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_28">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>630</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_23">
@@ -670,20 +537,10 @@
      </rect>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_31">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>690</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>470</x>
       <y>700</y>
       <width>51</width>
       <height>23</height>
@@ -693,22 +550,12 @@
      <string>Convert</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_32">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>690</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit_6a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>390</y>
-      <width>91</width>
+      <width>181</width>
       <height>20</height>
      </rect>
     </property>
@@ -716,9 +563,9 @@
    <widget class="QLineEdit" name="lineEdit_4a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>260</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -726,9 +573,9 @@
    <widget class="QLineEdit" name="lineEdit_10a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>639</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -736,9 +583,9 @@
    <widget class="QLineEdit" name="lineEdit_11a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>700</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -746,9 +593,9 @@
    <widget class="QLineEdit" name="lineEdit_2a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>140</y>
-      <width>91</width>
+      <width>181</width>
       <height>20</height>
      </rect>
     </property>
@@ -756,9 +603,9 @@
    <widget class="QLineEdit" name="lineEdit_1a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>80</y>
-      <width>191</width>
+      <width>181</width>
       <height>20</height>
      </rect>
     </property>
@@ -769,9 +616,9 @@
    <widget class="QLineEdit" name="lineEdit_7a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>450</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -779,9 +626,9 @@
    <widget class="QLineEdit" name="lineEdit_5a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>330</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -789,9 +636,9 @@
    <widget class="QLineEdit" name="lineEdit_3a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>200</y>
-      <width>91</width>
+      <width>181</width>
       <height>20</height>
      </rect>
     </property>
@@ -799,9 +646,9 @@
    <widget class="QLineEdit" name="lineEdit_8a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>510</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -809,17 +656,17 @@
    <widget class="QLineEdit" name="lineEdit_9a">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>540</x>
       <y>580</y>
-      <width>91</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_29">
+   <widget class="QComboBox" name="comboBox_1a">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>370</x>
       <y>70</y>
       <width>81</width>
       <height>41</height>
@@ -874,7 +721,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>30</x>
       <y>80</y>
       <width>91</width>
       <height>16</height>
@@ -887,7 +734,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>30</x>
       <y>140</y>
       <width>91</width>
       <height>16</height>
@@ -896,6 +743,1426 @@
     <property name="text">
      <string>Suprafata:</string>
     </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volum:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Timp:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Viteza:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>390</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Temperatura</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>450</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Masa:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Energie:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>580</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Presiune:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>640</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Densitate:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>690</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Consum</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>710</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>combustibil:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>130</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ac</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km²</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>190</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ml</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cl</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dl</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gal(UK)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gal(US)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_9">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>570</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>at</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>atm</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PSI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kPa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MPa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kp/cm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>inHg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>inH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ibf/ft²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ibf/in²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mbar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mca</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmca</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmHg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmWC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmWs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mWC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mWs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N/mm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>torr</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_11">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>690</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>l/100km</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/gal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>°C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°R</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>saptamana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>luna</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>an(365zile)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mileniu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>decisecunda(ds)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>centisecunda(cs)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>milisecunda(ms)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>500</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>cal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kcal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>erg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quadrillion Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tcc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>toe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>th</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kW*h</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_7">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>440</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>mg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>g</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>t</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Troy)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>slug</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>320</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>km/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/min (fpm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/s (fps)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in/s (ips)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>nmi/h (nod)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/s</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>630</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string> g/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string> mg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>t/m³</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>630</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string> g/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string> mg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>t/m³</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_9a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>570</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>at</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>atm</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>bar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>inH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>inHg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kp/cm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kPa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ibf/ft²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ibf/in²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mbar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mca</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmca</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmH2O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmHg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmWC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mmWs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MPa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mWC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mWs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N/mm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PSI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>torr</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_11a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>690</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>l/100km</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/gal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>500</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>cal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>erg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kcal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kW*h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>quad Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tcc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>toe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>th</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*s</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>380</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>°F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°C</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_7a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>440</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>g</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Troy)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>slug</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>t</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_12">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>190</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ml</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cl</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dl</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gal(UK)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gal(US)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_13">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>250</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>saptamana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>luna</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>an(365zile)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mileniu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>decisecunda(ds)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>centisecunda(cs)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>milisecunda(ms)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_14">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>320</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>km/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>km/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>m/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cm/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/min (fpm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft/s (fps)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in/s (ips)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mi/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>nmi/h (nod)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yd/s</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
