@@ -112,3 +112,14 @@ void MainWindow::on_pushButton_clicked()
 }
 
 
+
+void MainWindow::on_pushButton_rev_clicked()
+{
+    int a,b;
+    a=index1;
+    b=index2;
+    ui->comboBox_1a->setCurrentIndex(a);
+    ui->comboBox_1->setCurrentIndex(b);
+     on_pushButton_clicked();
+
+}
