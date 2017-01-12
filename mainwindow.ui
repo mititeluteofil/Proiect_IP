@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1381</width>
-    <height>1937</height>
+    <width>841</width>
+    <height>640</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1350</width>
-    <height>1715</height>
+    <width>755</width>
+    <height>640</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -29,14 +29,14 @@
       <x>110</x>
       <y>0</y>
       <width>591</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: italic 12pt &quot;Stencil&quot;;</string>
     </property>
     <property name="text">
-     <string>Introduceti o valoare in dreptul unitatii de masura:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Introduceti o valoare in dreptul masurilor fizice&lt;/p&gt;&lt;p&gt;Apoi selectati unitatile de masura pentru conversie&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_1">
@@ -53,7 +53,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>140</y>
+      <y>120</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -63,7 +63,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>200</y>
+      <y>160</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -73,7 +73,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>330</y>
+      <y>240</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -83,7 +83,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>260</y>
+      <y>200</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -93,7 +93,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>510</y>
+      <y>360</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -103,7 +103,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>450</y>
+      <y>320</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -126,7 +126,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>140</y>
+      <y>120</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -139,7 +139,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>200</y>
+      <y>160</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -152,7 +152,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>260</y>
+      <y>200</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -165,7 +165,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>330</y>
+      <y>240</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -178,7 +178,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>390</y>
+      <y>280</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -191,7 +191,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>450</y>
+      <y>320</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -204,7 +204,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>510</y>
+      <y>360</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -217,9 +217,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>70</y>
+      <y>80</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -271,8 +271,8 @@
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>76</y>
+      <x>330</x>
+      <y>80</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -285,24 +285,24 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>130</y>
+      <y>120</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>a</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>ac</string>
+      <string>ar</string>
      </property>
     </item>
     <item>
      <property name="text">
       <string>ha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ac</string>
      </property>
     </item>
     <item>
@@ -344,8 +344,8 @@
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>136</y>
+      <x>330</x>
+      <y>120</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -357,8 +357,8 @@
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>196</y>
+      <x>330</x>
+      <y>160</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -370,8 +370,8 @@
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>260</y>
+      <x>329</x>
+      <y>204</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -383,8 +383,8 @@
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>326</y>
+      <x>330</x>
+      <y>240</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -396,8 +396,8 @@
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>506</y>
+      <x>330</x>
+      <y>360</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -409,8 +409,8 @@
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>446</y>
+      <x>330</x>
+      <y>320</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -422,8 +422,8 @@
    <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>386</y>
+      <x>330</x>
+      <y>280</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -436,7 +436,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>390</y>
+      <y>280</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -445,8 +445,8 @@
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>576</y>
+      <x>330</x>
+      <y>400</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -459,7 +459,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>639</y>
+      <y>439</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -469,7 +469,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>580</y>
+      <y>400</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -479,7 +479,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>580</y>
+      <y>400</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -491,8 +491,8 @@
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>636</y>
+      <x>330</x>
+      <y>440</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -505,7 +505,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>640</y>
+      <y>440</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -517,8 +517,8 @@
    <widget class="QLabel" name="label_23">
     <property name="geometry">
      <rect>
-      <x>331</x>
-      <y>696</y>
+      <x>330</x>
+      <y>480</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -531,7 +531,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>700</y>
+      <y>480</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -541,7 +541,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>700</y>
+      <y>480</y>
       <width>51</width>
       <height>23</height>
      </rect>
@@ -554,7 +554,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>390</y>
+      <y>280</y>
       <width>181</width>
       <height>20</height>
      </rect>
@@ -564,7 +564,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>260</y>
+      <y>200</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -574,7 +574,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>639</y>
+      <y>439</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -584,7 +584,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>700</y>
+      <y>480</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -594,7 +594,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>140</y>
+      <y>120</y>
       <width>181</width>
       <height>20</height>
      </rect>
@@ -617,7 +617,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>450</y>
+      <y>320</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -627,7 +627,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>330</y>
+      <y>240</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -637,7 +637,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>200</y>
+      <y>160</y>
       <width>181</width>
       <height>20</height>
      </rect>
@@ -647,7 +647,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>510</y>
+      <y>360</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -657,7 +657,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>580</y>
+      <y>400</y>
       <width>181</width>
       <height>21</height>
      </rect>
@@ -667,9 +667,9 @@
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>70</y>
+      <y>80</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -728,27 +728,27 @@
      </rect>
     </property>
     <property name="text">
-     <string>Longitudine:</string>
+     <string>Lungime:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>140</y>
+      <y>120</y>
       <width>91</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Suprafata:</string>
+     <string>Arie:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>200</y>
+      <y>160</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -761,7 +761,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>260</y>
+      <y>200</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -774,7 +774,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>330</y>
+      <y>240</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -787,7 +787,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>390</y>
+      <y>280</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -800,7 +800,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>450</y>
+      <y>320</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -813,7 +813,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>510</y>
+      <y>360</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -826,7 +826,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>580</y>
+      <y>400</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -839,7 +839,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>640</y>
+      <y>440</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -852,7 +852,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>690</y>
+      <y>470</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -865,7 +865,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>710</y>
+      <y>490</y>
       <width>91</width>
       <height>20</height>
      </rect>
@@ -878,24 +878,24 @@
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>130</y>
+      <y>120</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>a</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>ac</string>
+      <string>ar</string>
      </property>
     </item>
     <item>
      <property name="text">
       <string>ha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ac</string>
      </property>
     </item>
     <item>
@@ -938,9 +938,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>190</y>
+      <y>160</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -961,6 +961,11 @@
     <item>
      <property name="text">
       <string>l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mm³</string>
      </property>
     </item>
     <item>
@@ -1008,19 +1013,19 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>570</y>
+      <y>400</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>at</string>
+      <string>at (Atmosferă tehnică)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>atm</string>
+      <string>atm (Atmosferă standard)</string>
      </property>
     </item>
     <item>
@@ -1050,7 +1055,7 @@
     </item>
     <item>
      <property name="text">
-      <string>kp/cm²</string>
+      <string>kgf/cm² (kp/cm² | kp=kilopond)</string>
      </property>
     </item>
     <item>
@@ -1080,62 +1085,32 @@
     </item>
     <item>
      <property name="text">
-      <string>mca</string>
+      <string>cmca (mH20|cm coloană de apă)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>mce</string>
+      <string>mmca (mmH2O|mm coloană de apă)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>mH2O</string>
+      <string>mmHg (mm coloană de mercur)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>mmca</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mmce</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mmH2O</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mmHg</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mmWC</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mmWs</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mWC</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mWs</string>
+      <string>cmHg (cm coloană de mercur)</string>
      </property>
     </item>
     <item>
      <property name="text">
       <string>N/mm²</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N/cm²</string>
      </property>
     </item>
     <item>
@@ -1148,9 +1123,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>690</y>
+      <y>480</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1177,30 +1152,40 @@
    <widget class="QComboBox" name="comboBox_6">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>380</y>
-      <width>81</width>
-      <height>41</height>
+      <x>200</x>
+      <y>280</y>
+      <width>101</width>
+      <height>21</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>°C</string>
+      <string>°C (Celsius)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°F</string>
+      <string>°F (Fahrenheit)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°K</string>
+      <string>°K (Kelvin)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°R</string>
+      <string>°R (Rankine)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°r (Reaumur)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°N (Newton)</string>
      </property>
     </item>
    </widget>
@@ -1208,11 +1193,36 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>250</y>
+      <y>200</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>milisecunda(ms)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>centisecunda(cs)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>decisecunda(ds)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>secunda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </item>
     <item>
      <property name="text">
       <string>h</string>
@@ -1240,32 +1250,12 @@
     </item>
     <item>
      <property name="text">
+      <string>secol</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
       <string>mileniu</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>min</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>sec</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>decisecunda(ds)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>centisecunda(cs)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>milisecunda(ms)</string>
      </property>
     </item>
    </widget>
@@ -1273,9 +1263,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>500</y>
+      <y>360</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1345,7 +1335,7 @@
     </item>
     <item>
      <property name="text">
-      <string>toe</string>
+      <string>tTNT</string>
      </property>
     </item>
     <item>
@@ -1373,9 +1363,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>440</y>
+      <y>320</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1400,7 +1390,12 @@
     </item>
     <item>
      <property name="text">
-      <string>lb</string>
+      <string>lb (Av)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb (Troy)</string>
      </property>
     </item>
     <item>
@@ -1423,9 +1418,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>320</y>
+      <y>240</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1523,9 +1518,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>630</y>
+      <y>440</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1535,32 +1530,22 @@
     </item>
     <item>
      <property name="text">
-      <string>kg/m³</string>
+      <string>g/cm³</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string> mg/m³</string>
+      <string>g/l</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>t/m³</string>
+      <string>g/ml</string>
      </property>
     </item>
-   </widget>
-   <widget class="QComboBox" name="comboBox_10a">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>630</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
     <item>
      <property name="text">
-      <string> g/m³</string>
+      <string>kg/cm³</string>
      </property>
     </item>
     <item>
@@ -1570,7 +1555,62 @@
     </item>
     <item>
      <property name="text">
-      <string> mg/m³</string>
+      <string>kg/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/ft³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/gal(UK) 9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/gal(US) 10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mg/cm³ 11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string> mg/m³ 12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mg/l 13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/gal(UK)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/gal(US)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(av)/in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/ft³</string>
      </property>
     </item>
     <item>
@@ -1583,9 +1623,9 @@
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>570</y>
+      <y>400</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1723,9 +1763,9 @@
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>690</y>
+      <y>480</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1749,133 +1789,43 @@
      </property>
     </item>
    </widget>
-   <widget class="QComboBox" name="comboBox_8a">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>500</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>cal</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>erg</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>ft*lbf</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>in*lbf</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>J</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>kcal</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>kJ</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>kW*h</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Btu</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>quad Btu</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>tcc</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>tce</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>tec</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>tep</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>toe</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>th</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>W*h</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>W*s</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QComboBox" name="comboBox_6a">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>380</y>
-      <width>81</width>
-      <height>41</height>
+      <x>360</x>
+      <y>280</y>
+      <width>101</width>
+      <height>21</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>°F</string>
+      <string>°F (Fahrenheit)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°K</string>
+      <string>°K (Kelvin)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°R</string>
+      <string>°R (Rankine)</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>°C</string>
+      <string>°C (Celsius)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°r (Reaumur)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>°N (Newton)</string>
      </property>
     </item>
    </widget>
@@ -1883,9 +1833,9 @@
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>440</y>
+      <y>320</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1900,7 +1850,12 @@
     </item>
     <item>
      <property name="text">
-      <string>lb</string>
+      <string>lb (Av)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb (Troy)</string>
      </property>
     </item>
     <item>
@@ -1929,13 +1884,13 @@
      </property>
     </item>
    </widget>
-   <widget class="QComboBox" name="comboBox_12">
+   <widget class="QComboBox" name="comboBox_3a">
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>190</y>
+      <y>160</y>
       <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -1956,6 +1911,11 @@
     <item>
      <property name="text">
       <string>l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mm³</string>
      </property>
     </item>
     <item>
@@ -1999,78 +1959,13 @@
      </property>
     </item>
    </widget>
-   <widget class="QComboBox" name="comboBox_13">
+   <widget class="QComboBox" name="comboBox_5a">
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>250</y>
+      <y>240</y>
       <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>h</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>zi</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>saptamana</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>luna</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>an(365zile)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>mileniu</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>min</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>sec</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>decisecunda(ds)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>centisecunda(cs)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>milisecunda(ms)</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QComboBox" name="comboBox_14">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>320</y>
-      <width>81</width>
-      <height>41</height>
+      <height>21</height>
      </rect>
     </property>
     <item>
@@ -2167,8 +2062,8 @@
    <widget class="QPushButton" name="pushButton_rev">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>50</y>
+      <x>730</x>
+      <y>80</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -2176,6 +2071,411 @@
     <property name="text">
      <string>Revert</string>
     </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev3">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>200</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>milisecunda(ms)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>centisecunda(cs)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>decisecunda(ds)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>secunda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>saptamana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>luna</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>an(365zile)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>secol</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mileniu</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev6">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>200</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev5">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev9">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>400</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>360</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev10">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>440</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rev11">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>480</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revert</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>360</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>cal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kcal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>erg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ft*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>in*lbf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quadrillion Btu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tcc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tce</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tec</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tep</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tTNT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>th</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*s</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W*h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kW*h</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10a">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>440</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string> g/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>g/cm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>g/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>g/ml</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg/cm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>kg/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/ft³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/gal(UK)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>lb/gal(US)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mg/cm³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string> mg/m³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mg/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/gal(UK)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/gal(US)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(av)/in³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>oz(Av)/ft³</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>t/m³</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
@@ -2191,7 +2491,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1381</width>
+     <width>841</width>
      <height>21</height>
     </rect>
    </property>
