@@ -126,7 +126,7 @@ void MainWindow::on_comboBox_11a_currentIndexChanged(int index)
 
 }
 
-//Lungime
+//Lungimex
 double normalizationLength(double input){
     switch (indexA[1]) {
     case 0:
@@ -213,7 +213,7 @@ void MainWindow::on_pushButton_rev_clicked()
 
 }
 
-//Arie
+//Ariex
 double normalizationArea(double input){
     switch (indexA[2]) {
     case 0:
@@ -315,7 +315,7 @@ void MainWindow::on_pushButton_rev2_clicked()
 
 }
 
-//Volum
+//Volumx
 double normalizationVolume(double input){
     switch (indexA[3]) {
     case 0:
@@ -434,7 +434,7 @@ void MainWindow::on_pushButton_rev3_clicked()
 
 }
 
-//Time
+//Timex
 double normalizationTime(double input){
     switch (indexA[4]) {
     case 0:
@@ -539,7 +539,7 @@ void MainWindow::on_pushButton_rev4_clicked()
      on_pushButton_4_clicked();
 
 }
-//Speed
+//Speedx
 double normalizationSpeed(double input){
     switch (indexA[5]) {
     case 0:
@@ -692,7 +692,7 @@ void MainWindow::on_pushButton_rev5_clicked()
 
 }
 
-//Temperature
+//Temperaturex
 double normalizationTemp(double input){
     switch (indexA[6]) {
     case 0:
@@ -762,35 +762,35 @@ void MainWindow::on_pushButton_rev6_clicked()
 }
 
 
-//Mass
+//Massx
 double normalizationMass(double input){
     switch (indexA[7]) {
     case 0:
-       output = input*0.000001;
+       return input*0.000001;
        break;
     case 1:
-       output = input*0.001;
+       return input*0.001;
        break;
     case 2:
-       output = input;
+       return input;
        break;
     case 3:
-       output = input*1000;
+       return input*1000;
        break;
     case 4:
-       output = input*0.45359237;
+       return input*0.45359237;
        break;
     case 5:
-       output = input*0.3732417216;
+       return input*0.3732417216;
        break;
     case 6:
-       output = input*0.028349523125;
+       return input*0.028349523125;
        break;
     case 7:
-       output = input*0.0311034768;
+       return input*0.0311034768;
        break;
     case 8:
-      output = input*14.593903
+       return input*14.593903;
        break;
   default:
         break;
@@ -830,7 +830,7 @@ void MainWindow::on_pushButton_7_clicked()
       output = input*0.06852176556196104633558274301261;
        break;
     case 8:
-      output = input**0.001;
+      output = input*0.001;
        break;
     default:
         break;
@@ -848,7 +848,7 @@ void MainWindow::on_pushButton_rev7_clicked()
     ui->comboBox_7->setCurrentIndex(b);
      on_pushButton_7_clicked();
 }
-//Energy
+//Energyx
 double normalizationEnergy(double input){
     switch (indexA[8]) {
     case 0:
@@ -991,8 +991,8 @@ void MainWindow::on_pushButton_rev8_clicked()
 
 }
 
-//Pression
-double normalizationPression(double input){
+//Pressure
+double normalizationPressure(double input){
     switch (indexA[9]) {
     case 0:
        return input*98066.5;
@@ -1004,7 +1004,7 @@ double normalizationPression(double input){
        return input*100000;
        break;
     case 3:
-       return input*6894.75729317;
+       return input*6894.7572932;
        break;
     case 4:
        return input;
@@ -1019,16 +1019,16 @@ double normalizationPression(double input){
       return input*98066.5;
       break;
     case 8:
-      return input*3386.38815789;
+      return input*3376.85;
       break;
     case 9:
-        return input*248.84;
+        return input*249.082;
         break;
     case 10:
-        return input*47.88;
+        return input*47.88025898;
         break;
     case 11:
-        return input*6894.75729317;
+        return input*6894.7572932;
         break;
     case 12:
        return input*100;
@@ -1040,10 +1040,10 @@ double normalizationPression(double input){
        return input*9.80638;
        break;
     case 15:
-       return input* 133.3224;
+       return input* 133.322;
        break;
     case 16:
-       return input* 1333.224;
+       return input* 1333.22;
        break;
     case 17:
       return input* 1000000;
@@ -1052,11 +1052,8 @@ double normalizationPression(double input){
       return input * 10000;
        break;
     case 19:
-       return input;
+       return input*133.32236842;
         break;
-    case 20:
-       return input *133.32236842;
-       break;
     default:
         break;
     }
@@ -1067,90 +1064,70 @@ void MainWindow::on_pushButton_9_clicked()
 {
     double input , output;
     input=ui->lineEdit_9->text().toDouble();
-    input=normalizationPression(input);
+    input=normalizationPressure(input);
 
     switch (indexb[9]) {
     case 0:
-       output = input*1000;
+       output = input*0.0000101972;
        break;
     case 1:
-       output = input*100;
+       output = input*9.8692326671601283000246730816679e-6;
        break;
     case 2:
-       output = input
+       output = input*0.00001;
        break;
     case 3:
-       output = input;
+       output = input*0.070306958;
        break;
     case 4:
-       output = input
+       output = input;
        break;
     case 5:
-       output = input
+       output = input*0.001;
        break;
     case 6:
-       output = input
+       output = input*0.000001;
        break;
     case 7:
-      output = input
+      output = input*0.0000101972;
        break;
     case 8:
-      output = input
+      output = input*0.0002953006;
        break;
     case 9:
-       output = input
+       output = input*0.0040185981;
         break;
     case 10:
-        output = input
+        output = input*0.0208854342;
+        break;
     case 11:
-        output = input
+        output = input*0.0001450377;
         break;
     case 12:
-       output = input;
+       output = input*0.01;
        break;
     case 13:
-       output = input;
+       output = input*0.101974429;
        break;
     case 14:
-       output = input*;
+       output = input*0.019744289;
        break;
     case 15:
-       output = input*;
+       output = input*0.007500637554;
        break;
     case 16:
-       output = input*;
+       output = input*0.0007500638;
        break;
     case 17:
-      output = input*;
+      output = input*0.000001;
       break;
     case 18:
-      output = input
+      output = input*0.0001;
        break;
     case 19:
-       output = input
+       output = input*0.0075006168;
         break;
-    case 20:
-       output = input;
-       break;
-    case 21:
-       output = input;
-       break;
-    case 22:
-       output = input
-       break;
-    case 23:
-       output = input;
-       break;
-    case 24:
-       output = input
-       break;
-    case 25:
-       output = input
-       break;
-    case 26:
-       output = input
-       break;
-    default:
+     default:
         break;
     }
 
@@ -1319,19 +1296,19 @@ void MainWindow::on_pushButton_rev10_clicked()
 double normalizationFuelConsumption(double input){
     switch (indexA[11]) {
     case 0:
-       return input*0.001;
+       return 100/input;
        break;
     case 1:
-       return input*0.01;
-       break;
-    case 2:
-       return input*0.1;
-       break;
-    case 3:
        return input;
        break;
+    case 2:
+       return 282.48093627967/input;
+       break;
+    case 3:
+       return 235.21458329475/input;
+       break;
     case 4:
-       return input*;
+       return 62.137119223734/input;
        break;
   default:
         break;
@@ -1347,19 +1324,19 @@ void MainWindow::on_pushButton_11_clicked()
 
     switch (indexb[11]) {
     case 0:
-       output = input*1000;
+       output = 100/input;
        break;
     case 1:
-       output = input*100;
+       output = input;
        break;
     case 2:
-       output = input
+       output = 282.48093627967/input;
        break;
     case 3:
-       output = input;
+       output = 235.21458329475/input;
        break;
     case 4:
-       output = input;
+       output = 62.137119223734/input;
        break;
 
     default:
